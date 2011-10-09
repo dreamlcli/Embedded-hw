@@ -5,11 +5,12 @@ int main()
 	scanf("%hx, %hx, %hx",&n1,&n2,&n3);
 
     if(n1<n2 && n1<n3)
-        {Min = n1;}
+    {Min = n1;}
     if(n2<n1 && n2<n3)
-        {Min = n2;}
+    {Min = n2;}
     if(n3<n1 && n3<n2)
-        {Min = n3;}
+    {Min = n3;}
+
 
 	printf("Min=0x%hx ",Min);	
 
