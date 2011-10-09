@@ -3,11 +3,19 @@ int main()
 {
 	short n1,n2,n3,Min;
 	scanf("%hx, %hx, %hx",&n1,&n2,&n3);
-
+	if(n1<=n2){
+		if(n1<=n3){Min=n1;}
+		else{Min=n3;}
+	}else{
+		if(n2<=n3){Min=n2;}
+		else{Min=n3;}
+	}
 	
-        
-            
-        
+	/*
+	if(n1<=n2 && n1<=n3){Min = n1;}
+    	if(n2<=n1 && n2<=n3){Min = n2;}
+   	if(n3<=n1 && n3<=n2){Min = n3;} 	  
+	*/
 
 	printf("Min=0x%hx ",Min);	
 
