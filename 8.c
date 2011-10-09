@@ -5,7 +5,7 @@ int main()
     int Len;
     
     for(Len;Start[Len] != '\0';Len++)
-    {  }
+    {}
     printf("Len=%d\n",Len);
 
 	return 0;

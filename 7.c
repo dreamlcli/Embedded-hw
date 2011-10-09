@@ -5,12 +5,14 @@ int main()
  	short Start[]={0x7602, 0x8D48, 0x2120, 0, 0xE605, 4};
 	for(i;i<n;i++)
 	{	
-		if(Start[i]>>15==-1)
-			{ Negg++;}
-		else if(Start[i]==0)
-			{Zero++;}
-		else if(Start[i]>>15==0)
+		if(Start[i]==0)
+			{ Zero++;}
+		else if(Start[i]<0)
+			{Negg++;}
+		else if(Start[i]>0)
 			{Pos++;}
+
+	
 	}
 		printf("Pos=%d Zero=%d Negg=%d\n",Pos,Zero,Negg);
        

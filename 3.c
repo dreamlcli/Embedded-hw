@@ -4,12 +4,10 @@ int main()
 	short n1,n2,n3,Min;
 	scanf("%hx, %hx, %hx",&n1,&n2,&n3);
 
-	 if(n1>n2)
-		Min=n2;
-	else
-        Min=n1;
-    else if(Min>n3)	
-		Min=n3;
+	
+        
+            
+        
 
 	printf("Min=0x%hx ",Min);	
 

@@ -6,10 +6,11 @@ int main()
 	int i=0;
 	for(i;i<n;i++)
 	{
-		if((x[i]>>15)==-1)
+		if((x[i]>>15)&1==1)
 			{cnt++;}
 	}
 		printf("cnt=%d\n",cnt);
+
 	return 0;
 }
 
